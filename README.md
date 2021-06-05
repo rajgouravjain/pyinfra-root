@@ -13,6 +13,7 @@ pyinfra inventories/test_instance.py deploy_demo.py
 pyinfra --dry @local   deploy_demo.py
 ```
 
+=======
 ### Different ways to write deploy:
 
 There are two major way of writing deploy in pyinfra. 
@@ -25,14 +26,14 @@ There are two major way of writing deploy in pyinfra.
 * please refer hirarchy at https://docs.pyinfra.com/en/1.x/deploys.html
 * visit branch v1 in this repository
 
-##### using @deploy decorator syntax
+##### using @deploy decorator
 
 * Can be shared as python packages
 * please refer https://docs.pyinfra.com/en/1.x/api/deploys.html
-* visit branch v2 in this repository
+* two deploy packages team_user and demo_app are available
 
 ##### Writing mix of @deploy and tasks/*
 
+* extra parameter can be passed to deployment easily
+* easy to convert code in reusable modules
 * plesae visit branch v3 for this experiement
-
-
