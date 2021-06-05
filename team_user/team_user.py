@@ -59,6 +59,9 @@ def setup_user(
         src=ssh_key_template,
         dest='{}/.ssh/id_rsa.pub'.format(host.data.team_user_home),
         content=host.data.team_user_ssh_public_key,
+        user=host.data.team_user,
+        group=host.data.team_user,
+        mode=644,
         host=host,
 	state=state,
     )
