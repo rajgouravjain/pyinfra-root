@@ -1,5 +1,3 @@
-# pyinfra airflow
-# File: pyinfra_airflow/util.py
 # Desc: general utilities!
 
 from os import path
