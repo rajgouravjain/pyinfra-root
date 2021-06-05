@@ -23,11 +23,13 @@ There are two major way of writing deploy in pyinfra.
 ##### using deploy with tasks/*.py
 
 * please refer hirarchy at https://docs.pyinfra.com/en/1.x/deploys.html
+* visit branch v1 in this repository
 
 ##### using @deploy decorator syntax
 
 * Can be shared as python packages
 * please refer https://docs.pyinfra.com/en/1.x/api/deploys.html
+* visit branch v2 in this repository
 
 ##### Writing mix of @deploy and tasks/*
 
