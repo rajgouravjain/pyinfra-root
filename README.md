@@ -21,3 +21,4 @@ deploy configuration and hirarchy
 - tasks/*.py 
 - files/*
 - templates/*
+- utils.py
