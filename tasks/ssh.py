@@ -8,7 +8,7 @@ from utils import get_file_path
 from utils import get_template_path
 from utils import get_task_path
 
-bash_profile_file = get_file_path('team_user/files/team_user_bash_profile')
+bash_profile_file = get_file_path('team_user_bash_profile')
 
 files.put(
         src = bash_profile_file,
@@ -28,7 +28,7 @@ files.directory(
         recursive=True,
     )
 
-ssh_key_template = get_template_path("team_user/templates/ssh_key.j2")
+ssh_key_template = get_template_path("ssh_key.j2")
 
 files.template(
         name='Create a public key file',
