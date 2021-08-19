@@ -20,6 +20,7 @@ There are two major way of writing deploy in pyinfra.
 * using deploy with tasks/*.py files
 * using @deploy decoratoer syntax -> preffered way
 * writing mix of @deploy and tasks/*.py 
+* please visit branch v1 for it
 
 ##### using deploy with tasks/*.py
 
@@ -31,6 +32,7 @@ There are two major way of writing deploy in pyinfra.
 * Can be shared as python packages
 * please refer https://docs.pyinfra.com/en/1.x/api/deploys.html
 * two deploy packages team_user and demo_app are available
+* Please visit branch v2 or master for this 
 
 ##### Writing mix of @deploy and tasks/*
 
